@@ -9,7 +9,6 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class UpdateAddressRequestDTO implements Serializable {
     private int id;
     private String name;
